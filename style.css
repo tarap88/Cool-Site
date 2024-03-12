@@ -1,0 +1,33 @@
+:root{
+    --dark: #061130;
+    --blue: #1C4BC4;
+    --light: #F4F6F8;
+    --yellow: #FAFD61;
+    }
+
+    body {
+        background-color: var(--light);
+        margin: unset;
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+
+header,main{
+    background-color: var(--dark);
+}
+
+
+    .nav-links>a {
+     text-decoration: none;
+     color: var(--light);
+    }
+
+    main>section{
+        color: var(--light);
+    }
+
+    .services-color {
+        color: var(--yellow);
+    }
+
