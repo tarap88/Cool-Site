@@ -15,7 +15,7 @@
         height: 100dvh;
     }
 
-    header, main{
+    header{
         margin: 15px;
         margin-left: 45px;
         margin-right: 45px;
@@ -33,7 +33,10 @@
      margin-right: 30px;
 
     }
-
+main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
     main>section{
         color: var(--light);
     }
@@ -48,24 +51,27 @@
 
     .links {
         background-color: var(--light);
+        margin-left: 25px;
         padding: 45px;
     }
 .links>a {
     color: var(--blue);
+    display: flex;
 }
     .footer {
         background-color: var(--grey);
         text-align: center;
         padding: 25px;
         display: flex;
-        flex-grow: .5em;
         flex-direction: column;
     }
-    
+
     .display-flex {
         display: flex;
     }
-
+.grow{
+    flex-grow: 1;
+}
     .justify-between {
         justify-content: space-between;
     }
@@ -74,7 +80,3 @@
         width: 50%;
     }
 
-    .justify-evenly {
-        justify-content: space-evenly;
-      }
-      
